@@ -9,7 +9,7 @@ const Skills = () => {
         <BackgroundDesign />
       <main className='-mt-20 max-sm:-mt-56 '>
         <div className='flex justify-center '>
-          <div className='container flex justify-around flex-col px-4  '>
+          <div className='container flex justify-around max-sm:flex-col max-md:flex-col px-4  '>
             <div className='w-96 space-y-8 max-sm:w-full '>
               <SkillBar skillName="HTML, CSS" percentage={90} />
               <SkillBar skillName="JavaScript" percentage={80}  />
