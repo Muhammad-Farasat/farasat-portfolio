@@ -1,0 +1,21 @@
+.footerStyle{
+    clip-path: polygon(60% 86%, 65% 100%, 35% 100%, 41% 86%);
+}
+
+@media not all and (min-width: 640px) { 
+    .footerStyle{
+        clip-path: polygon(32% 92%, 69% 92%, 79% 100%, 20% 100%);    
+    }
+}
+
+@media not all and (min-width: 768px) { 
+    .footerStyle{
+        clip-path: polygon(32% 92%, 69% 92%, 79% 100%, 20% 100%);    
+    }
+}
+
+@media not all and (min-width: 1024px) { 
+    .footerStyle{
+        clip-path: polygon(31% 90%, 70% 90%, 79% 100%, 20% 100%);    
+    }
+}

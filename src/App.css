@@ -1,0 +1,20 @@
+body{
+  background-color: #eaeaea;
+}
+
+@font-face {
+  font-family: orbitron;
+  src: url('./Fonts/Orbitron/Orbitron-Regular.ttf');
+}
+@font-face {
+  font-family: orbitron-black;
+  src: url('./Fonts/Orbitron/Orbitron-Black.ttf');
+}
+@font-face {
+  font-family: orbitron-bold;
+  src: url('./Fonts/Orbitron/Orbitron-Bold.ttf');
+}
+@font-face {
+  font-family: orbitron-extrabold;
+  src: url('./Fonts/Orbitron/Orbitron-ExtraBold.ttf');
+}
