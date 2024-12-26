@@ -17,24 +17,24 @@ export default function Navbar() {
         <div className='font-orbitron w-full flex absolute top-10 px-4 max-sm:hidden max-md:hidden max-lg:top-8 '>
           <ul className='  flex gap-x-48 font-semibold tracking-widest  max-lg:gap-x-16 max-lg:text-xs max-xl:text-sm max-xl:gap-x-44 '>
             <li>
-              <NavLink to={'/skills'} className={({isActive}) => isActive ? 'underline text-lg text-[#050927] ' : 'text-[#111] no-underline' }>SKILLS</NavLink>
+              <NavLink to={'/skills'} className={({isActive}) => isActive ? 'underline underline-offset-4 text-lg text-[#050927] ' : 'text-[#111] no-underline' }>SKILLS</NavLink>
             </li>
-            <li><NavLink to={'/projects'} className={({isActive}) => isActive ? 'underline text-lg text-[#050927] ' : 'text-[#111] no-underline' } >PROJECTS</NavLink></li>
+            <li><NavLink to={'/projects'} className={({isActive}) => isActive ? 'underline underline-offset-4 text-lg text-[#050927] ' : 'text-[#111] no-underline' } >PROJECTS</NavLink></li>
           </ul>
           
           <ul className='absolute right-4 flex gap-x-48 font-semibold tracking-widest max-lg:gap-x-16 max-lg:text-xs max-xl:text-sm max-xl:gap-x-44 '>
-            <li><NavLink to={'/about'} className={({isActive}) => isActive ? 'underline text-lg text-[#050927] ' : 'text-[#111] no-underline' } >ABOUT</NavLink></li>
-            <li><NavLink to={'/contact'} className={({isActive}) => isActive ? 'underline text-lg text-[#050927] ' : 'text-[#111] no-underline' } >CONTACT</NavLink></li>
+            <li><NavLink to={'/about'} className={({isActive}) => isActive ? 'underline underline-offset-4 text-lg text-[#050927] ' : 'text-[#111] no-underline' } >ABOUT</NavLink></li>
+            <li><NavLink to={'/contact'} className={({isActive}) => isActive ? 'underline underline-offset-4 text-lg text-[#050927] ' : 'text-[#111] no-underline' } >CONTACT</NavLink></li>
           </ul>
         </div>
         
         
         <div className=' responsive hidden max-sm:flex absolute max-sm:top-6 max-sm:right-2 max-md:flex max-md:top-12 max-md:right-6 '>
           <ul className={`${style.responsiveUl} w-full flex max-sm:gap-x-2 max-sm:text-[7px] tracking-widest font-orbitronBold max-md:text-sm max-md:gap-x-6 `}>
-            <li><NavLink to={'./skills'} className={({isActive}) => isActive ? 'underline  text-[#050927] ' : 'text-[#111] no-underline' }  >SKILLS</NavLink></li>
-            <li><NavLink to={'./projects'} className={({isActive}) => isActive ? 'underline  text-[#050927] ' : 'text-[#111] no-underline' } >PROJECTS</NavLink></li>
-            <li><NavLink to={'./about'} className={({isActive}) => isActive ? 'underline  text-[#050927] ' : 'text-[#111] no-underline' } >ABOUT</NavLink></li>
-            <li><NavLink to={'./contact'} className={({isActive}) => isActive ? 'underline  text-[#050927] ' : 'text-[#111] no-underline' } >CONTACT</NavLink></li>
+            <li><NavLink to={'./skills'} className={({isActive}) => isActive ? 'underline underline-offset-4  text-[#050927] ' : 'text-[#111] no-underline' }  >SKILLS</NavLink></li>
+            <li><NavLink to={'./projects'} className={({isActive}) => isActive ? 'underline underline-offset-4  text-[#050927] ' : 'text-[#111] no-underline' } >PROJECTS</NavLink></li>
+            <li><NavLink to={'./about'} className={({isActive}) => isActive ? 'underline underline-offset-4  text-[#050927] ' : 'text-[#111] no-underline' } >ABOUT</NavLink></li>
+            <li><NavLink to={'./contact'} className={({isActive}) => isActive ? 'underline underline-offset-4  text-[#050927] ' : 'text-[#111] no-underline' } >CONTACT</NavLink></li>
           </ul>
         </div>
       </nav>

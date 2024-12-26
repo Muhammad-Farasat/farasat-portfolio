@@ -4,6 +4,9 @@ import SkillBar from '../Components/SkillBar/SkillBar'
 
 
 const Skills = () => {
+
+  
+
   return (
     <>
         <BackgroundDesign />
