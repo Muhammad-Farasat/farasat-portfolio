@@ -141,7 +141,7 @@ const Projects = () => {
                     </p>
                     <div className="flex justify-center mt-4 gap-x-6 max-sm:gap-x-4 max-sm:mt-2  ">
                       <button className="font-bold w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px] ">
-                        <Link to={'https://ministerial-karleen-farasat-97d7064a.koyeb.app'}>
+                        <Link to={'https://chat-app-farasat-7803120c.koyeb.app'}>
                           Check website
                         </Link>
                       </button>

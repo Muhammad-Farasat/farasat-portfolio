@@ -1,5 +1,7 @@
 body{
+  background: url('/Image/texture.avif');
   background-color: #eaeaea;
+  background-blend-mode: lighten;
 }
 
 @font-face {
