@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import eCommerce from "/Image/eCommerce.jpeg";
 import blog from "/Image/blog.jpeg";
 import chatapp from "/Image/chatapp.jpeg";
+import eGame from "/Image/e-game.jpeg";
 import {
   Navigation,
   Pagination,
@@ -153,6 +154,35 @@ const Projects = () => {
               </div>
               
               <img src={chatapp} alt="" className=" blur-[2px] " />
+            </SwiperSlide>
+
+            <SwiperSlide className="animate">
+              
+            <div className=" flex w-full h-full absolute top-0 z-50 bg-[#000000ad] justify-center items-center">
+                <div className="flex  flex-col container items-center space-y-4 max-sm:space-y-1 ">
+                  
+                  <p className="text-[#fff] text-lg font-orbitronExtraBold tracking-widest max-sm:text-[8px] max-md:text-[12px] ">
+                    E Game
+                  </p>
+                  
+                  <div className="font-sans tracking-wider px-8 flex flex-col max-sm:px-3 max-md:px-3 ">
+                    <p className="text-[#fff] text-center text-sm max-sm:text-[6px] max-sm:leading-[10px] max-md:text-[7px] max-md:leading-3 ">
+                    This project is a visually interactive UI with animations triggered on scroll. Each card scales into view dynamically and continues pulsating for a lively effect. Powered by GSAP, it enhances user engagement with smooth transitions and responsive animations.
+                    </p>
+                    <div className="flex justify-center mt-4 gap-x-6 max-sm:gap-x-4 max-sm:mt-2  ">
+                      <button className="font-bold w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px] ">
+                        <Link to={'https://e-game-farasat.netlify.app/'}>
+                          Check website
+                        </Link>
+                      </button>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              
+              <img src={eGame} alt="" className=" blur-[2px] " />
             </SwiperSlide>
           
           </Swiper>

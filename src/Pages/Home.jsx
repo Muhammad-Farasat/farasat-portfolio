@@ -2,7 +2,7 @@ import React from 'react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react';
 import BackgroundDesign from '../Components/BgDesign/BackgroundDesign'
-import cv from '/PDF/Farasat Resume.pdf'
+import cv from '/PDF/Farasat-Professional-Resume.pdf'
 
 const Home = () => {
 
