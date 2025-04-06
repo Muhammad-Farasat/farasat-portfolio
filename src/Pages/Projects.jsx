@@ -73,14 +73,14 @@ const Projects = () => {
                       backend. It uses Tailwind CSS for responsive styling. The Credential for admin is <span className="font-bold">admin123@gmail.com & 789456</span>
                     </p>
                     <div className="flex justify-center mt-4 gap-x-6 max-sm:gap-x-4 max-sm:mt-2 ">
-                      <button className="font-bold  w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px]  ">
+                      <button className=" hover:text-white font-bold w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px]  ">
                         <Link to={'https://e-commerce-frontend-ten-rho.vercel.app'}>
-                          Check website
+                          CHECK WEBSITE
                         </Link>
                       </button>
-                      <button className="font-bold  w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px] ">
+                      <button className=" hover:text-white font-bold  w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px] ">
                         <Link to={'https://e-commerce-admin-six-rho.vercel.app'}>
-                          Check Admin
+                          CHECK ADMIN
                         </Link>
                       </button>
 
@@ -108,14 +108,14 @@ const Projects = () => {
                     </p>
                     <div className="flex justify-center mt-4 gap-x-6 max-sm:gap-x-4 max-sm:mt-2 ">
 
-                      <button className="font-bold  w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px] ">
+                      <button className="font-bold hover:text-white w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px] ">
                         <Link to={'https://react-blog-frontend-dusky.vercel.app'}>
-                          Check website
+                          CHECK WEBSITE
                         </Link>
                       </button>
-                      <button className="font-bold  w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px] ">
+                      <button className="font-bold hover:text-white w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px] ">
                         <Link to={'https://react-blog-admin-nine.vercel.app'}>
-                          Check Admin
+                          CHECK ADMIN
                         </Link>
                       </button>
 
@@ -141,9 +141,9 @@ const Projects = () => {
                     This is a real-time chat application built using the MERN stack (MongoDB, Express, React, Node.js) with socket.io for instant messaging. The app allows users to authenticate, send and receive messages in real-time, and manage conversations efficiently. It's deployed on Vercel for both the frontend and backend.
                     </p>
                     <div className="flex justify-center mt-4 gap-x-6 max-sm:gap-x-4 max-sm:mt-2  ">
-                      <button className="font-bold w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px] ">
+                      <button className="font-bold hover:text-white w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px] ">
                         <Link to={'https://chat-app-farasat-7803120c.koyeb.app'}>
-                          Check website
+                          CHECK WEBSITE
                         </Link>
                       </button>
 
@@ -170,9 +170,9 @@ const Projects = () => {
                     This project is a visually interactive UI with animations triggered on scroll. Each card scales into view dynamically and continues pulsating for a lively effect. Powered by GSAP, it enhances user engagement with smooth transitions and responsive animations.
                     </p>
                     <div className="flex justify-center mt-4 gap-x-6 max-sm:gap-x-4 max-sm:mt-2  ">
-                      <button className="font-bold w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px] ">
+                      <button className="font-bold hover:text-white w-32 px-2 py-2.5 text-xs max-sm: max-sm:text-[4px] max-sm:leading-none text-[#222] bg-[#fff] rounded hover:bg-[#111] transition duration-300 max-sm:w-10  text-center max-sm:px-1 max-sm:py-1 max-md:px-2 max-md:py-2 max-md:w-20 max-md:text-[8px] ">
                         <Link to={'https://e-game-farasat.netlify.app/'}>
-                          Check website
+                          CHECK WEBSITE
                         </Link>
                       </button>
 
