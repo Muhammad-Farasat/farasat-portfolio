@@ -10,6 +10,16 @@
   width: 80%;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE + Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
 .swiper-slide img {
   display: block;
   width: 100%;

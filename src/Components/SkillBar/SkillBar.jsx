@@ -1,9 +1,9 @@
 // SkillBar.jsx
-import React, {  useRef } from "react";
+import React, { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
-export default function SkillBar({ skillName, percentage, color }) {
+export default function SkillBar({ skillName, percentage, color, description }) {
   const barRef = useRef();
 
   useGSAP(() => {
@@ -40,6 +40,7 @@ export default function SkillBar({ skillName, percentage, color }) {
           {percentage}%
         </span>
       </div>
+      <p className="text-gray-800 text-sm">{description}</p>
     </div>
   );
 }
